@@ -1,0 +1,34 @@
+$space-large: 2.5rem;
+$title-color: #555;
+
+.page-title{
+  color: $title-color;
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+}
+
+
+input[type=search]{
+  box-shadow: none;
+}
+
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
